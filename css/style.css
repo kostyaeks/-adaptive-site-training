@@ -1,0 +1,1061 @@
+
+/*============    ШРИФТЫ    ===========*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+
+	body, html {
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 400;
+}
+
+	/*============= header===============*/
+
+#headwrap {
+	background: url(../img/header-bg.png) no-repeat center top;
+	text-align: center;
+	background-attachment: relative;
+	min-height: 800px;
+	width: 100%;
+	position: relative;
+
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#headwrap .logo {
+	margin: 66px auto;
+	height: auto;
+} 
+
+#headwrap .text {
+	margin-top: 73px auto;
+}
+
+			.text h1{
+				font-size: 49px;
+				text-transform: uppercase;
+				color: #fff;
+				text-shadow: 1px 1px 1px #c7c3c3;
+				line-height: 45px;
+				font-weight: 400;
+			}
+	
+			.text .bol {
+			font-family: 'Open Sans', Arial, sans-serif;
+			letter-spacing: 1px;
+			font-weight: 700;
+			}
+
+.bottom-form {
+	background: #fff;
+	height: 335px;
+	width: 335px;
+	position: absolute;
+	top: 72.346%; 
+	left:0;
+	right:0;
+	margin: 1px auto;
+	border-bottom:1px solid #c4c4c4;
+	box-shadow: 1px 1px 0 #e6e6e6, -1px 0 0 #e6e6e6;
+}
+
+		.form-control {
+			color: #000;
+			font: 1em 'Open Sans', Arial, sans-serif;
+			text-shadow: -1px -1px 1px #e5e5e5;
+			box-shadow:0 -1px #e5e5e5;
+			margin: 29px  30px 25px;
+			width: 79.4029850746%;
+			height: 39px;
+			font-weight: 400;
+		}
+
+		.foto {
+			background: url(../img/attraction.png) no-repeat center top;
+			text-align: center;
+			height: 100px;
+			max-width: 100%;
+		}
+
+		.bottom-form p {
+			font: 1.125em 'Open Sans', Arial, sans-serif;
+			font-weight: 400;
+			line-height: 2px;
+			margin: 17px 30px 17px 0;
+			color: #a19d9d;
+			text-shadow: 1px 0 1px #d4d2d2;
+		}
+
+		.bottom-form .btn {
+			width: 57%;
+			height: 45px;
+			margin: 17px 40px 17px 27px;
+			font: 1.688em 'Open Sans', Arial, sans-serif;			
+			font-weight: 600;
+			text-transform: uppercase;
+			text-shadow: 1px 0 1px  #89bae8;
+		}
+
+/*=============section===============*/
+			/*=======download========*/
+#download{
+	text-align: center;
+}
+.div {
+	margin:155px auto 87px;
+	display: inline-block;
+	max-width: 40%;
+	box-sizing: border-box;
+	padding: 2px;
+	text-align: left;
+}
+	
+	.div:hover{
+		opacity: .85;
+	}
+	
+		 #download .docs span {
+			float: left;
+			background: url(../img/Documents.png) no-repeat center center;
+			height: 150px;
+			width: 100px;
+			position: relative;
+		}
+		.docs .text{
+			float: left;
+			margin-left: 30px;
+			margin-top: 6px;
+			color:#000;
+			line-height: 1.7;
+		}
+
+		.docs h4 {
+				font:700 27px 'Open Sans', Arial, sans-serif;
+		}
+
+		.docs p {
+			font:400 'Open Sans', Arial, sans-serif;
+			margin-top: -4px;
+			}
+
+	.div.photo {
+			margin-left: 70px;
+		}
+			
+		 #download .photo span {
+			float: left;
+			background: url(../img/photos.png) no-repeat center center;
+			height: 150px;
+			width: 100px;
+			position: relative;
+		}
+		.photo .text{
+			float: left;
+			margin-left: 30px;
+			margin-top: 6px;
+			color:#000;
+			line-height: 1.7;
+		}
+
+		.photo h4 {
+				font:700 27px 'Open Sans', Arial, sans-serif;
+		}
+
+		.photo p {
+			font:400 'Open Sans', Arial, sans-serif;
+			margin-top: -4px;
+			}
+
+       /*=======info=======*/
+	
+  	.info .text1{
+  		min-height: 869px;
+  		background: #5fc18b;
+  	}   
+	
+			.text1_heading{
+  			position: relative;
+  			z-index: 1;
+	  		padding: 1px;
+  			display: block;
+  			width: 51.5%;
+  			top:100px;
+  			left:0;
+  			right:0;
+  			bottom:0;
+  			margin:0 auto;
+			}
+
+  		.text1_heading span{
+  					position: absolute;
+  					top: -20px;
+  					left: -100px;
+  					background: url(../img/foto_phone.png) no-repeat center center;
+  					height: 500px;
+  					width: 500px;
+  					z-index: -1;
+  	}
+  	
+  		.text1_heading h1{
+  			text-align: center;
+  			margin-top: 158px;
+  			margin-left: -52px;
+  			font:600 39px 'Open Sans', Arial, sans-serif;
+  			color: #fff;
+  		}
+  	
+  			.text1_heading p{
+  				font:400 'Open Sans', Arial, sans-serif;
+  				color: #fff;
+  				margin-top: 26px;
+  				line-height: 22px;
+  			} 
+		
+	 	.info .text2{
+	  		min-height: 480px;
+	  		background: #44a36f;
+	  		position: relative;
+	  		z-index: 2;
+	  		padding: 1px;
+	  	}   
+
+			.info .text2:before {
+		  			background: inherit;
+		  			content: '';
+		  			display: block;
+		  			height: 80%;
+		  			left: 0;
+		  			position: absolute;
+		  			right: 0;
+		  			z-index: -2;
+		  			-webkit-backface-visibility: hidden;
+			}
+		
+		.info .text2:before {
+		  			 top: 0;
+		  			-webkit-transform: skewY(-14deg);
+		  			-moz-transform: skewY(-14deg);
+		  			-o-transform: skewY(-14deg);
+		         transform: skewY(-14deg);
+		  			-webkit-transform-origin: 0 0;
+		  			-moz-transform-origin: 0 0;
+		  			-o-transform-origin: 0 0;
+		         transform-origin: 0 0;
+			}
+		
+				.addition_block{
+					min-height: 70px;
+		  					background:  #308355;
+		  					-webkit-transform: skewY(-13.7deg);
+		  					-moz-transform: skewY(-13.7deg);
+		  					-o-transform: skewY(-13.7deg);
+		         		transform: skewY(-13.7deg);
+		  					-webkit-transform-origin: 0 0;
+		  					-moz-transform-origin: 0 0;
+		  					-o-transform-origin: 0 0;
+		          	transform-origin: 0 0;
+		          	-webkit-clip-path: polygon(100% 73%, 100% 100%, 10% 100%);
+		          	-moz-clip-path: polygon(100% 73%, 100% 100%, 10% 100%);
+		          	-o-clip-path: polygon(100% 73%, 100% 100%, 10% 100%);
+					clip-path: polygon(100% 73%, 100% 100%, 10% 100%);
+					position: relative;
+					top:-70px;
+					right:0;
+				}
+		
+				.okcomp{
+					position: absolute;
+					top: 45px;
+					left: 4px;
+					background: url(../img/foto_okcomp.png) no-repeat center center;
+					height: 580px;
+					width: 500px;
+					z-index: 3;
+		  					}
+
+  					.lkm{
+  					  position: relative;
+  					  top: -69px;
+  					  left: 175px;
+  						z-index: 4;
+  						color: #fff;
+  						width: 39.6%;
+  						margin:0 auto;
+  						}
+
+  							.text2_heading h1{
+  							font:600 39px 'Open Sans', Arial, sans-serif;
+  							letter-spacing: 0.3px;
+  							}
+  						
+  						.text2_heading p{
+  							font:400 'Open Sans', Arial, sans-serif;
+  							margin-left: 7px;
+  							margin-top: 17px;
+  							line-height: 23px;
+  							}
+  						
+  							.btn-lg {
+  								margin: 37px 13px;
+  								font:600 27px 'Open Sans', Arial, sans-serif;
+  								background: #44a36f;
+  								border:3px solid #fff;
+  								color: #fff;
+  								width: 39.5%;
+  								display: block;
+  								height: 58px;
+  								line-height: 4px;
+  								-webkit-transition: box-shadow 0.7s, font-size 0.7s;
+		          		-moz-transition: box-shadow 0.7s, font-size 0.7s;
+		          		-o-transition: box-shadow 0.7s, font-size 0.7s;
+  								transition: box-shadow 0.7s, font-size 0.7s;
+  							}
+  						
+  								.btn-lg:hover{
+  									background: #44a36f;
+  									border-color:#fff;
+  									-webkit-box-shadow: 1px 1px 10px 1px #fff;
+  									-moz-box-shadow: 1px 1px 10px 1px #fff;
+  									-o-box-shadow: 1px 1px 10px 1px #fff;
+  									box-shadow: 1px 1px 10px 1px #fff;
+  									color:#fff;
+  									font-size: 28px;
+  								}
+  						 
+/*============    ПОДВАЛ    ===========*/
+	#map_container{
+		position: relative;
+		z-index: 2;
+		overflow:hidden;
+	}
+
+	#map{
+		width: 100%;
+		height: 635px;
+		position: relative;
+	}
+
+
+	.circle_form{
+		width: 430px;
+		height: 430px;
+		background: #fff;
+		position: absolute;
+		border: 1px solid #c9bfbf;
+		top: 167px;
+		left: 0;
+		right:0;
+		margin:auto;
+		border-radius: 300px;
+		-webkit-transition: opacity 2s;
+		-moz-transition: opacity 2s;
+		-o-transition: opacity 2s;
+		transition: opacity 2s;
+	}
+
+			.circle_form:hover{
+				-webkit-transition: 0.7s;
+  			-moz-transition: 0.7s;
+  			-o-transition: 0.7s;
+				transition: 0.7s;
+			}
+
+					#map:active ~ .circle_form{
+						opacity: 0.3;
+					}
+					#map:hover ~ .circle_form{
+						opacity: 0.3;
+					}
+
+.new-form{
+	margin: 105px 0 15px 80px; 
+	width: 278px;
+	height: 7.5%;
+	border-radius: 0;
+	padding-left:20px;
+	padding-right:30px;
+	color:#000;
+}
+	
+.ok{
+	margin:0px 0 14px 80px;
+	width: 278px;
+	height: 7.5%;
+	border-radius: 0;
+	padding-left:20px;
+	padding-right:30px;
+	color:#000;
+}
+
+.bou{
+	resize: none;
+	margin: 0 0 0 80px;
+	width: 278px;
+	border-radius: 0;
+	padding-left:20px;	
+	padding-right:30px;
+	color:#000;
+		}
+
+		.circle_form input:required, .circle_form textarea:required{
+			background: #fff url(../img/red_asterisk.png) no-repeat 98% center;
+		}
+
+		.circle_form input:focus:invalid, .circle_form textarea:focus:invalid {
+			background: #fff url(../img/invalid.png) no-repeat 98% center;
+			box-shadow: 0 0 5px #d45252;
+			border-color: #b03535
+		}
+
+		.circle_form input:required:valid, .circle_form textarea:required:valid { 
+			background: #fff url(../img/valid.png) no-repeat 98% center;
+			box-shadow: 0 0 5px #5cd053;
+			border-color: #28921f;
+		} 
+
+.btn-cor{
+	width: 16%;
+	height: 16%;
+	border-radius: 300px;
+	background: #44a36f;
+	margin:40px 185px;
+	border:none;
+	z-index: -1;
+	display: block;
+	}
+
+	  .check_mark{
+			padding: 10px 20px;
+			background: #fff;
+			z-index: 1;
+			-webkit-clip-path: polygon(39% 61%, 83% 18%,100% 36%, 38% 97%, 0% 60%, 18% 40%);
+			-moz-clip-path: polygon(39% 61%, 83% 18%,100% 36%, 38% 97%, 0% 60%, 18% 40%);
+			-o-clip-path: polygon(39% 61%, 83% 18%,100% 36%, 38% 97%, 0% 60%, 18% 40%);
+			clip-path: polygon(39% 61%, 83% 18%,100% 36%, 38% 97%, 0% 60%, 18% 40%); 
+			}
+
+		.btn-cor:hover {
+			opacity:.85;
+      cursor: pointer;
+		}
+
+			.btn-cor:focus{
+				outline: none;
+			}
+
+		.btn-cor:active{
+			border: 2px solid #fff;
+		}
+
+.corp{
+	width: 100%;
+	min-height: 50px;
+	background: #44a36f;
+}		
+
+/*=================Стили на кнопку "В начало страницы"==============*/
+
+	#back-top {
+		position: fixed;
+		bottom: 60px;
+		right: 6%;
+		z-index: 99;
+	}
+
+		#back-top a {
+			background: url(../img/if_Arrow_46_2104132.png) no-repeat;
+			width: 64px;
+			height: 64px;
+			display: block;
+			margin-bottom: 7px;
+		}
+
+				#back-top a:hover{
+					opacity: .75;
+				}
+
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+
+/*============    	АДАПТИВ    ===========*/
+
+@media(min-width:0px) and (max-width:320px) {
+	
+/*=================Хедер===============*/
+
+	#headwrap .logo {
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+		} 
+
+		.bottom-form {
+			width: 100%;		
+			position: inherit;
+			padding-top:5px;
+		}
+
+/*=============Блоки с файлами для скачивания===========*/
+
+#download{
+		min-width: 305px;
+	}		
+
+	.div{
+		max-width: 100%;
+		margin: auto;
+	}	
+		.div.docs{
+			margin: auto;
+		}
+
+			.docs .text{
+				margin: 10px;
+				width: 55%;
+			}
+
+				.docs h4{
+					margin: 0 0 3px;
+				}
+
+					.docs p{
+						font-size: 14px;
+			      line-height: 1.1;
+			      text-align: left;
+			      word-spacing: 4px;
+					}
+
+		.div.photo{
+			margin: auto;
+		}
+
+			.photo .text{
+				margin: 10px;
+				width: 55%;
+			}
+
+				.photo h4{
+					margin: 0 0 3px;
+				}
+
+					.photo p{
+						font-size: 14px;
+			      line-height: 1.1;
+			      text-align: left;
+			      word-spacing: 4px;
+					}		
+
+/*================Информационные блоки================*/
+
+	.info .text1{
+		min-width: 305px;
+	}
+
+		.text1_heading{
+			margin:0 auto;
+			width: 97%;
+			top:30px;
+			left: 0;
+		}
+
+			.text1_heading span{
+  					top: -20px;
+  					left: 0;
+  					background: url(../img/foto_phone200x200.png) no-repeat center center;
+  					height: 200px;
+  					width: 200px;
+			}
+
+				.text1_heading h1{
+					margin-top: 60px;
+					font-size: 29px;
+				}
+	
+	.info .text2{
+		min-width: 305px;
+	}
+		
+		.okcomp{
+			background: url(../img/foto_okcomp200x200.png) no-repeat center center;
+			height: 200px;
+			width: 200px;	
+			top: 0;
+			left: 0;
+		}
+		  					
+  			.lkm{
+  				width: 97%;
+  				margin:0 auto;
+  				top:0;
+  				left:0;
+  			}
+
+  				.text2_heading h1{
+  					font-size:29px;
+  					text-align: center;
+  				}
+  						
+  						.btn-lg {
+  							margin: 27px auto;
+  							width: 60%;
+  							display: block;
+  							}
+
+/*==============Секция с картой===============*/
+
+	.circle_form{
+		width: 100%;
+		height: 300px;
+		top: 350px;
+		left: 0;
+		right:0;
+		margin:0;
+		border-radius: 10px;
+	}
+
+			.new-form{
+				margin: 30px auto 15px; 
+				width: 238px;
+				height: 8.5%;
+			}
+	
+			.ok{
+				margin:0px auto 15px;
+				width: 238px;
+				height: 8.5%;
+			}
+
+			.bou{
+				resize: none;
+				margin: 0 auto;
+				width: 238px;
+			}
+
+	.btn-cor{
+		width: 26%;
+		height: 26%;
+		margin:13px auto;
+	}
+
+/*========Кнопка возврата в начало=========*/
+
+	#back-top {
+		bottom: 22px;
+		right: 3%;
+	}
+			
+}
+
+
+
+@media(min-width:321px) and (max-width:480px) {
+	
+/*=================Хедер===============*/
+
+	#headwrap .logo {
+		margin: 0 auto;
+		max-width: 100%;
+		height: auto;
+	} 
+
+		.bottom-form {
+			width: 100%;		
+			position: inherit;
+			padding-top:5px;
+		}
+
+/*=============Блоки с файлами для скачивания===========*/
+
+
+		.div{
+		max-width: 100%;
+		margin: 0;
+	}	
+		
+			.div.docs{
+				margin: auto;
+			}
+					.docs .text{
+						margin: 10px;
+						width: 55%;
+					}
+
+						.docs h4{
+							margin: 0 0 3px;
+						}
+
+						.docs p{
+							font-size: 14px;
+			   	    line-height: 1.1;
+			   	    text-align: left;
+			   	    word-spacing: 4px;
+						}
+
+			.div.photo{
+				margin: auto;
+			}
+
+					.photo .text{
+						margin: 10px;
+						width: 55%;
+					}
+
+						.photo h4{
+							margin: 0 0 3px;
+						}
+
+						.photo p{
+							font-size: 14px;
+			    	  line-height: 1.1;
+			   	    text-align: left;
+			  	    word-spacing: 4px;
+						}		
+
+/*================Информационные блоки================*/
+
+	.text1_heading{
+		margin:0 auto;
+		width: 97%;
+		top:50px;
+	}
+
+		.text1_heading span{
+  		top: -40px;
+  		left: 0;
+  		background: url(../img/foto_phone250x250.png) no-repeat center center;
+  		height: 250px;
+  		width: 250px;
+			}
+
+				.text1_heading h1{
+					margin-top: 60px;
+					font-size: 33px;
+				}
+	
+	.okcomp{
+		background: url(../img/foto_okcomp300x300.png) no-repeat center center;
+		height: 300px;
+		width: 300px;	
+		top: -30px;
+		left: 0;
+	}
+		  					
+  	.lkm{
+  		width: 97%;
+  		margin:0 auto;
+  		top:0;
+  		left:0;
+  	}
+
+  			.text2_heading h1{
+  				text-align: center;
+					font-size: 33px;
+  			}
+
+  	.btn-lg {
+  		margin: 27px auto;
+  		width: 60%;
+  	}
+
+ /*==============Секция с картой===============*/
+
+	.circle_form{
+		width: 350px;
+		height: 350px;
+		top: 270px;
+		left: 0;
+		right:0;
+		border-radius: 300px;
+	}
+
+			.new-form{
+				margin: 70px auto 15px; 
+				width: 218px;
+				height: 8.5%;
+			}
+	
+			.ok{
+				margin:0px auto 15px;
+				width: 218px;
+				height: 8.5%;
+			}
+
+			.bou{
+				resize: none;
+				margin: 0 auto;
+				width: 218px;
+			}
+
+	.btn-cor{
+		width: 19%;
+		height: 19%;
+		margin:25px auto;
+	}
+
+/*========Кнопка возврата в начало=========*/
+
+	#back-top {
+		bottom: 35px;
+		right: 9%;
+	}	
+  						
+}
+
+@media(min-width:481px) and (max-width:768px) {
+
+/*=================Хедер===============*/
+
+	#headwrap .logo {
+			margin: 0 auto;
+			max-width: 100%;
+			width: 275px;
+			height: auto;
+		} 
+		.bottom-form {
+			width: 100%;		
+			left: 0;
+		}
+
+		.form-control {
+			margin:29px auto;
+		}
+
+/*=============Блоки с файлами для скачивания===========*/
+
+		#download{
+			margin-top: 114px;
+			text-align: center;
+		}
+
+			.div{
+			max-width: 100%;
+			margin:auto;
+			text-align: left;
+			}	
+				.div.docs{
+				margin: auto;
+				}
+
+				.div.photo{
+				margin: auto;
+				}
+
+/*================Информационные блоки================*/
+
+
+	.text1_heading{
+		margin:0 auto;
+		width: 80%;
+		top:150px;
+	}
+
+		.text1_heading span{
+  		top: -130px;
+  		left: -45px;
+  		background: url(../img/foto_phone400x400.png) no-repeat center center;
+  		height: 400px;
+  		width: 400px;
+			}
+
+				.text1_heading h1{
+					margin-top: 60px;
+					font-size: 33px;
+				}
+	
+	.okcomp{
+		background: url(../img/foto_okcomp300x300.png) no-repeat center center;
+		height: 400px;
+		width: 400px;	
+		top: -90px;
+		left: 0;
+		right:0;
+		margin:auto;
+	}
+		  					
+  	.lkm{
+  		width: 97%;
+  		margin:0 auto;
+  		top:0;
+  		left:0;
+  	}
+
+  			.text2_heading h1{
+  				text-align: center;
+					font-size: 33px;
+  			}
+
+  	.btn-lg {
+  		margin: 27px auto;
+  		width: 60%;
+  	}
+
+ /*==============Секция с картой===============*/
+
+	.circle_form{
+		width: 350px;
+		height: 350px;
+		top: 270px;
+		left: 0;
+		right:0;
+		border-radius: 300px;
+	}
+
+			.new-form{
+				margin: 70px auto 15px; 
+				width: 218px;
+				height: 8.5%;
+			}
+	
+			.ok{
+				margin:0px auto 15px;
+				width: 218px;
+				height: 8.5%;
+			}
+
+			.bou{
+				resize: none;
+				margin: 0 auto;
+				width: 218px;
+			}
+
+	.btn-cor{
+		width: 19%;
+		height: 19%;
+		margin:25px auto;
+	}
+
+/*========Кнопка возврата в начало=========*/
+
+	#back-top {
+		bottom: 35px;
+		right: 9%;
+	}	
+  						
+}
+
+@media(min-width:769px) and (max-width:992px) {
+			
+/*=================Хедер===============*/
+
+	.bottom-form {
+		bottom: -77px;
+		}
+
+/*=============Блоки с файлами для скачивания===========*/
+
+	#download{
+		margin-top: 114px;
+		text-align: center;
+	}
+
+		.div{
+			max-width: 100%;
+			margin:auto;
+			text-align: left;
+		}	
+
+			.div.docs{
+				margin: auto;
+			}
+
+			.div.photo{
+				margin: auto;
+			}
+/*================Информационные блоки================*/
+
+.text1_heading{
+		margin: 0 auto;
+		width: 70%;
+		top: 200px;
+	}
+
+		.text1_heading span{
+  		top: -130px;
+  		left: -105px;
+			}
+
+				.text1_heading h1{
+					margin-top: 70px;
+				}
+	
+	.okcomp{
+		background: url(../img/foto_okcomp400x400.png) no-repeat center center;
+		height: 400px;
+		width: 400px;	
+		top: 160px;
+		left: 0;
+	}
+		  					
+  	.lkm{
+  		left: 195px;
+  	} 
+
+  			.text2_heading h1{
+  				text-align: center;
+  			}
+
+  	.btn-lg {
+  		margin: 27px auto;
+  		width: 60%;
+  	}
+}
+
+@media(min-width:993px) and (max-width:1200px) {
+
+	/*=============Блоки с файлами для скачивания===========*/
+
+	#download{
+		margin: 145px 0 50px;
+	}
+
+		.div{
+			max-width: 100%;
+		}	
+
+			.div.docs{
+				margin: auto;
+			}
+
+			.div.photo{
+				margin: auto;
+			}
+
+/*================Информационные блоки================*/
+
+	.lkm{
+  		left: 250px;
+  	} 
+
+  		.text2_heading h1{
+  			text-align: center;
+  			}
+
+  	.btn-lg {
+  		width: 60%;
+  	}
+}
+
+@media screen and (min-width:1400px) {
+	
+		.info .text2:before {
+		  -webkit-transform: skewY(-11deg);
+		  -moz-transform: skewY(-11deg);
+		  -o-transform: skewY(-11deg);
+		   transform: skewY(-11deg);
+		}
+		
+				.addition_block{
+		  		-webkit-transform: skewY(-10.7deg);
+		  		-moz-transform: skewY(-10.7deg);
+		  		-o-transform: skewY(-10.7deg);
+		       transform: skewY(-10.7deg);			
+				}
+
+}
